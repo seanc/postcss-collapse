@@ -1,0 +1,33 @@
+{
+  "name": "postcss-collapse",
+  "description": "Collapse CSS values into their shortest form",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/postcss-collapse",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/postcss-collapse",
+  "bugs": {
+    "url": "https://github.com/seanc/postcss-collapse/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava test test.js"
+  },
+  "keywords": [
+    "collapse",
+    "postcss"
+  ],
+  "dependencies": {
+    "postcss": "^5.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
