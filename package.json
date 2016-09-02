@@ -25,7 +25,7 @@
     "postcss"
   ],
   "dependencies": {
-    "css-collapse-values": "^0.1.0",
+    "css-collapse-values": "^0.2.1",
     "postcss": "^5.1.2"
   },
   "devDependencies": {
