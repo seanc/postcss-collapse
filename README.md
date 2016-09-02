@@ -2,6 +2,24 @@
 
 > Collapse CSS values into their shortest form
 
+A postcss plugin for [`css-collapse-values`](https://github.com/jamen/css-collapse-values) that turns your property values into short ones:
+
+```css
+.foo {
+  padding: 1px 10px 3px 10px;
+  border: 0.5em -0.1em 0.5em -0.1em;
+  margin: 10px auto 5px auto;
+}
+
+/* Collapses to: */
+
+.foo {
+  padding: 1px 10px 3px;
+  border: .5em -.1em;
+  margin: 10px auto 5px;
+}
+```
+
 ## Installation
 
 ```sh
